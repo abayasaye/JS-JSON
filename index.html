@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="form_id" onsubmit="saveMovieFunc(event)">
+    <h1>WELCOME</h1>
+    <h2>PLEASE FILL THIS FORM</h2>
+    <h3>and let us to know what is your best movie</h3>
+
+    <label for="">IMAGE</label>
+    <br>
+    <input id="img_id" type="text" placeholder="IMAGE SRC">
+    <br><br>
+    <label for="">LINK</label>
+    <br>
+    <input id="link_id" type="text" placeholder="LINK TO MOVIE">
+    <br><br>
+    <label for="">MOVIE NAME</label>
+    <br>
+    <input id="movie_name_id" type="text" placeholder="MOVIE NAME">
+    <br><br>
+    <label for="">RATING</label>
+    <br>
+    <input id="rating_id" type="text" placeholder="RATING">
+    <br><br>
+    <label for="">SYNOPSIS</label>
+    <br>
+    <input id="synop_id" type="text" placeholder="SYNOPSIS OF THE MOVIES">
+    <br><br>
+    <button type="submit" id="save_btn">SAVE</button>
+    <button onclick="printFunc ()" id="print_btn">PRINT</button>
+</form>
+    <h1 id="h1_id"></h1>
+    <script src="main.js"></script>
+</body>
+</html>
